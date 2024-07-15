@@ -1,0 +1,9 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+.env
+intensive_backend/db.sqlite3
+.idea
