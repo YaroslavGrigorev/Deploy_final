@@ -3,6 +3,7 @@
 *.pot
 *.pyc
 __pycache__/
+intensive_frontend
 local_settings.py
 .env
 intensive_backend/db.sqlite3

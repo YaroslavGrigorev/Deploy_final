@@ -5,8 +5,8 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
 class Autor(models.Model):
-    photo = models.ImageField()
     name = models.CharField(max_length=100)
+    surname = models.CharField(max_length=100)
     email = models.EmailField(max_length=50)
 
     def __str__(self):
